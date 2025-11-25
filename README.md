@@ -1,1 +1,0 @@
-# my-journey-from-python-scripting-to-python-software-application-development
