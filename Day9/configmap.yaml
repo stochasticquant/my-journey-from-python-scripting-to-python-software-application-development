@@ -1,0 +1,12 @@
+# deployments/kubernetes/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: inventory-config
+  namespace: inventory-system
+data:
+  db-host: "sqlserver"
+  db-port: "1433"
+  db-name: "inventory"
+  db-user: "sa"
+  app-port: "8000"
